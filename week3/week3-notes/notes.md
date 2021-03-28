@@ -64,10 +64,15 @@ Unlike SOAP, REST doesn’t have to use XML to provide the response. You can fin
 
 The guidlines for a "RESTful" api:
     1) client-server seperation
+
     2) statelessness
+
     3) uniform interface
+
     4) cacheable
+
     5) layered system
+    
     6) code on demand
 
 #### N+1
