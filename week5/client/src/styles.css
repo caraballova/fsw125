@@ -33,6 +33,7 @@ p {
 
 .bounty {
     border: 1px solid black;
+    border-radius: 50%;
     padding: 15px;
     margin: auto;
     margin-bottom: 10px;
@@ -71,3 +72,4 @@ button {
     border-radius: 4px;
     font-size: 16px;
 }
+
