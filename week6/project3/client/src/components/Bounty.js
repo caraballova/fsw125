@@ -9,7 +9,7 @@ export default function Bounty(props) {
             { !editToggle ?
                 <>
                     <h1>{ props.name}</h1>
-                    <p>Bounty Amount: $ { props.bountyAmount}</p>
+                    <p>Bounty Amount: { props.bountyAmount}</p>
                     <p>Still On Earth: { props.living} </p>
                 <button className="delete-btn"
                     onClick={() => props.deleteBounty(_id)}>
